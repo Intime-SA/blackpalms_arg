@@ -1,0 +1,26 @@
+{
+  "rewrites": [
+    { "source": "/obra/:id", "destination": "/" },
+    { "source": "/clientes", "destination": "/" },
+    { "source": "/proveedores", "destination": "/" },
+    { "source": "/categorias", "destination": "/" },
+    { "source": "/conceptos", "destination": "/" },
+    { "source": "/obras", "destination": "/" },
+    { "source": "/gastosObraPage/:id", "destination": "/" },
+    { "source": "/gastosHorasPage/:id", "destination": "/" },
+    { "source": "/compras", "destination": "/" },
+    { "source": "/ventas", "destination": "/" },
+    { "source": "/ingresos", "destination": "/" },
+    { "source": "/egresos", "destination": "/" },
+    { "source": "/cuentasBanco", "destination": "/" },
+    { "source": "proveedores/cuentaProveedor/:id", "destination": "/" },
+    { "source": "clientes/cuentaCliente/:id", "destination": "/" },
+    { "source": "cuentasBanco/cuentaMovimientos/:id", "destination": "/" },
+    { "source": "cuentasBanco/agregarCuenta", "destination": "/" },
+    { "source": "/reportes", "destination": "/" },
+    { "source": "/empleados", "destination": "/" },
+    { "source": "/agregarEmpleado", "destination": "/" },
+    { "source": "/administracionAjustes", "destination": "/" },
+    { "source": "/administracionCategorias", "destination": "/" }
+  ]
+}

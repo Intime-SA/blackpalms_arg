@@ -1,0 +1,28 @@
+/* styles.css */
+.table {
+  margin-left: 20vw;
+  width: 70%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.table th:first-child,
+.table td:first-child {
+  border-left: 1px solid #ddd;
+}
+
+.table th:last-child,
+.table td:last-child {
+  border-right: 1px solid #ddd;
+}
